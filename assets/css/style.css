@@ -1,0 +1,180 @@
+
+/*Background*/
+body {
+    background-image: url("../images/asanoha-400px.png");
+    background-repeat: repeat;
+}
+
+/*Header including white background*/
+.mainheader {
+    background-color: #ffff;
+    border-bottom: solid 2px #cccccc;
+    width: 100%;
+    margin: 0px auto;
+    bottom: 200px;
+}
+
+/*Header text*/
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: white;
+    font-size: 28px;
+    background-color:#4aaaa5;
+    width: 30%;
+    text-align: center;
+    padding: 15px;
+    margin: 0; 
+    position: relative;
+    left: 100px;
+    
+}
+
+h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 28px;
+    color: #4aaaa5;
+    padding: 10px;
+    margin: 0;
+}
+
+/*The text links at the top of every page*/
+a:hover { color: pink; }
+
+.links {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #cccccc;
+    text-align: right;
+    margin-right: 80px;
+    padding: 15px;
+    margin-bottom: 15px;
+    margin-right: 150px;
+    width: 90%;
+    float: right;
+    position: absolute;
+    top: 10px;
+}
+
+/*The white box that surrounds the main things*/
+.content {
+    width: 960px;
+    height: auto;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    border-width: 10px; 
+    margin: auto; /*This text centers the box*/
+    padding: 25px;
+    box-sizing: border-box;
+    position: relative;
+    top: 20px;
+    
+    
+}
+
+/*Any text that is not the header*/
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 15px;
+    color: #777777;
+    border-width: 20px;
+    word-wrap: break-word;
+    overflow: auto;
+    line-height: 1.5;
+    padding: 10px;
+}
+
+/*This is for my pic specific for the About page*/
+#myface {
+    float: left;
+    padding: 10px;
+
+}
+
+/*Here begins the portfolio page-specific codes*/
+/*This adjusts the padding for the table*/
+th, td {
+    padding: 15px;
+}
+/*This is the portfolio images*/
+.projectimg {
+    position: relative;
+    display: inline-block; /*inline-block elements makes the element generate a block box that’s laid out as if it were an inline box. */
+    
+}
+
+/*This is the teal bar that goes over the portfolio images*/
+.project {
+    background-color: teal;
+    color: white;
+    font-size: 24px;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+    z-index: 200;
+    position: absolute;
+    left: 0;
+    right: 0;     
+    bottom: 20%;
+
+}
+
+
+/*Here begins the code for the Contacts page*/
+.container {
+    padding: 10px;
+}
+
+/*Contact page font styling*/
+label {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    font-size: 16px;
+    display: inline-block;
+    font-weight: normal;
+}
+
+/*Below are the submission forms for the Contacts page*/
+input[type=text] {
+    width: 100%;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 16px 20px;
+    box-sizing: border-box;
+}
+
+/*Submit Button*/
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: teal;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/*Footer goes on every page*/
+footer {
+    background-color: #666666;
+    color: white;
+    size: 8px;
+    text-align: center;
+    z-index: 2000;
+    padding: 10px;
+    padding-top: 25px;
+    margin: 0 auto;
+    position: fixed;
+    left: 0;
+    right: 0;     
+    bottom:0;
+    width:100%;
+    border-top: solid 10px teal;
+}   
+
+/* Background pattern from Toptal Subtle Patterns */
